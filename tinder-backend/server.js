@@ -14,7 +14,7 @@ mongoose.connect(connection_url,{
    useUnifiedTopology: true 
 });
 //Api endpoints
-app.get("/", (req , res) => res.status(200).send("Hello cyka blyat jebani"));
+app.get("/", (req , res) => res.status(200).send("Hello"));
 app.post('/tinder/cards',(req,res)=>{
     const dbCard = req.body;
 
